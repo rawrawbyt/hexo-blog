@@ -1,0 +1,23 @@
+.colorbox{
+	display: inline-block!important;
+	width:200px;
+	height:200px;
+	/*margin-right: 10px;*/
+	color: #e8e8e8;
+	text-align: center;
+	line-height: 200px;
+	-webkit-border-radius:50%;
+	-moz-border-radius:50%;
+	border-radius:50%;
+}
+.colorfont{
+	display: inline-block!important;
+	width:200px;
+	height:200px;
+	background: #e8e8e8;
+	text-align: center;
+	line-height: 200px;
+	-webkit-border-radius:50%;
+	-moz-border-radius:50%;
+	border-radius:50%;
+}

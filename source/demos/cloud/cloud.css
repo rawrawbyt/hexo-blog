@@ -1,0 +1,10 @@
+div,a{padding: 0;margin: 0;font-family: "微软雅黑", sans-serif;font-size: 16px;}
+a{text-decoration: none;}
+
+.tip{width:30px;height:230px;line-height:25px;text-align: center;font-size:20px;padding: 10px;
+	-webkit-border-top-right-radius:8px; -moz-border-radius-topright:8px; border-top-right-radius:8px;
+	-webkit-border-bottom-right-radius:8px; -moz-border-radius-bottomright:8px; border-bottom-right-radius:8px;
+	background:darkseagreen;color:#fff;position: fixed;top:200px;left:0;}
+.tagGroup{width: 800px;height: 800px;position: relative;margin:150px auto;}
+.tag{position: absolute;}
+.tag:hover{font-weight: bold}

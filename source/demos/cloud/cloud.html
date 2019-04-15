@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>作品集</title>
+	<link rel="stylesheet" href="cloud.css">
+</head>
+<body>
+	<div class="tagGroup">
+		<a class="tag" target="_blank" href="Bootstrap/text/foxden.html">1Bootstrap</a>
+		<a class="tag" target="_blank" href="search/search.html" title="AngularJS（过滤器、监听）">2信息搜索</a>
+		<a class="tag" target="_blank" href="javascript:void(0)">3Freemori</a>
+		<a class="tag" target="_blank" href="imgWall/imgwall.html" title="功能：延迟加载">4图片墙</a>
+		<a class="tag" target="_blank" href="viewpaper/autoplay-JQ1.html" title="jQuery">5轮播（滑动）</a>
+		<a class="tag" target="_blank" href="viewpaper/autoplay-JQ2(sibling).html" title="jQuery">6轮播（淡入淡出）</a>
+		<a class="tag" target="_blank" href="navText/navText.html">7导航栏文字特效</a>
+		<a class="tag" target="_blank" href="javascript:void(0)">888888</a>
+		<a class="tag" target="_blank" href="javascript:void(0)">999999</a>
+		<a class="tag" target="_blank" href="javascript:void(0)">10aaaa</a>
+		<a class="tag" target="_blank" href="javascript:void(0)">11gada</a>
+		<a class="tag" target="_blank" href="javascript:void(0)">12adss</a>
+		<a class="tag" target="_blank" href="javascript:void(0)">13adsd</a>
+		<a class="tag" target="_blank" href="javascript:void(0)">14ffgf</a>
+		<a class="tag" target="_blank" href="javascript:void(0)">15gfdh</a>
+		<a class="tag" target="_blank" href="javascript:void(0)">16dfbx</a>
+		<a class="tag" target="_blank" href="javascript:void(0)">17zvcb</a>
+		<a class="tag" target="_blank" href="javascript:void(0)">18zvcx</a>
+		<a class="tag" target="_blank" href="javascript:void(0)">19zCXZ</a>
+		<a class="tag" target="_blank" href="javascript:void(0)">20VXZC</a>
+		<a class="tag" target="_blank" href="javascript:void(0)">21vzvc</a>
+		<a class="tag" target="_blank" href="javascript:void(0)">22fggf</a>
+		<a class="tag" target="_blank" href="javascript:void(0)">23jkhk</a>
+		<a class="tag" target="_blank" href="javascript:void(0)">2444444</a>
+		<a class="tag" target="_blank" href="javascript:void(0)">2555555</a>
+		<a class="tag" target="_blank" href="javascript:void(0)">2666666</a>
+		<a class="tag" target="_blank" href="javascript:void(0)">2777777</a>
+		<a class="tag" target="_blank" href="javascript:void(0)">2888888</a>
+		<a class="tag" target="_blank" href="javascript:void(0)">2999999</a>
+		<a class="tag" target="_blank" href="javascript:void(0)">30aaaaaa</a>
+		<a class="tag" target="_blank" href="javascript:void(0)">31bnbmnb</a>
+		<a class="tag" target="_blank" href="javascript:void(0)">32mmmm</a>
+		<a class="tag" target="_blank" href="javascript:void(0)">33iiii</a>
+		<a class="tag" target="_blank" href="javascript:void(0)">344444</a>
+		<a class="tag" target="_blank" href="javascript:void(0)">35555555</a>
+		<a class="tag" target="_blank" href="javascript:void(0)">36666666</a>
+		<a class="tag" target="_blank" href="javascript:void(0)">37777777</a>
+		<a class="tag" target="_blank" href="javascript:void(0)">38888888</a>
+		<a class="tag" target="_blank" href="javascript:void(0)">39999999</a>
+		<a class="tag" target="_blank" href="javascript:void(0)">40aaaaaa</a>
+		<a class="tag" target="_blank" href="javascript:void(0)">41asfdaf</a>
+		<a class="tag" target="_blank" href="javascript:void(0)">42jhggjh</a>
+		<a class="tag" target="_blank" href="javascript:void(0)">43lkjlll</a>
+		<a class="tag" target="_blank" href="javascript:void(0)">44kjjhkh</a>
+		<a class="tag" target="_blank" href="javascript:void(0)">4555555</a>
+		<a class="tag" target="_blank" href="javascript:void(0)">4666666</a>
+		<a class="tag" target="_blank" href="javascript:void(0)">4777777</a>
+		<a class="tag" target="_blank" href="javascript:void(0)">4888888</a>
+		<a class="tag" target="_blank" href="javascript:void(0)">4999999</a>
+		<a class="tag" target="_blank" href="javascript:void(0)">50aaaaa</a>
+	</div>
+	<script>
+	"use strict";
+	window.onload = function()
+	{
+		//--------------------------------------------------------------------------
+		//
+		//  Class constants
+		//
+		//--------------------------------------------------------------------------
+
+		var RADIUS = 300,			//半径
+				FALLLENGTH = 500,		//深度
+				angleX = Math.PI/800,
+				angleY = Math.PI/800;
+
+		//--------------------------------------------------------------------------
+		//
+		//  Class variables
+		//
+		//--------------------------------------------------------------------------
+
+		//	var tagEle = document.getElementsByClassName("tag" ),
+		//		tagGroup = document.getElementsByClassName("tagGroup"),//HTMLCollection只读对象
+		var tagEle = document.querySelectorAll(".tag"),
+				tagGroup = document.querySelector(".tagGroup"),
+		//		var tagEle = "querySelectorAll" in document ? document.querySelectorAll(".tag") : getClass("tag"),
+		//			tagGroup = "querySelectorAll" in document ? document.querySelector(".tagGroup") : getClass("tagGroup"),
+				CX = tagGroup.offsetWidth/ 2,//250
+				CY = tagGroup.offsetHeight/ 2,//250
+				EX = tagGroup.offsetLeft + document.body.scrollLeft + document.documentElement.scrollLeft,//变化
+				EY = tagGroup.offsetTop + document.body.scrollTop + document.documentElement.scrollTop,//50,变化
+				tags = [];
+		console.log(tagEle,CY,EY);
+
+		//--------------------------------------------------------------------------
+		//
+		//	Class properties
+		//
+		//--------------------------------------------------------------------------
+		/**
+		 * tag：每一个a的位置属性以及移动的样式
+		 * @param ele
+		 * @param x
+		 * @param y
+		 * @param z
+		 */
+		var tag = function(ele,x,y,z)
+		{
+			this.ele = ele;
+			this.x = x;
+			this.y = y;
+			this.z = z;
+			this.move = function()
+			{
+				var scale = FALLLENGTH / (FALLLENGTH - this.z);
+				var alpha = (this.z + RADIUS) / (2 * RADIUS);
+				this.ele.style.fontSize = 15 * scale + "px";
+				this.ele.style.opacity = alpha + 0.5;
+				this.ele.style.filter = "alpha(opacity = " + (alpha + 0.5) * 100 + ")";
+				this.ele.style.zIndex = parseInt( scale * 100 );
+				this.ele.style.left = this.x + CX - this.ele.offsetWidth / 2 + "px";
+				this.ele.style.top = this.y + CY - this.ele.offsetHeight / 2 + "px";
+			}
+		};
+
+		//--------------------------------------------------------------------------
+		//
+		//	Class properties
+		//
+		//--------------------------------------------------------------------------
+
+		//IE不兼容forEach
+		Array.prototype.forEach = function(callback){
+			for(var i=0;i<this.length;i++){
+				callback.call(this[i]);
+			}
+		};
+
+		/*tag.prototype.move =function()
+		 {
+		 var scale = fallLength/(fallLength-this.z);
+		 var alpha = (this.z+RADIUS)/(2*RADIUS);
+		 this.ele.style.fontSize = 15 * scale + "px";
+		 this.ele.style.opacity = alpha+0.5;
+		 this.ele.style.filter = "alpha(opacity = "+(alpha+0.5)*100+")";
+		 this.ele.style.zIndex = parseInt(scale*100);
+		 this.ele.style.left = this.x + CX - this.ele.offsetWidth/2 +"px";
+		 this.ele.style.top = this.y + CY - this.ele.offsetHeight/2 +"px";
+		 };*/
+		/*tag.prototype = {
+		 move:function()
+		 {
+		 var scale = fallLength/(fallLength-this.z);
+		 var alpha = (this.z+RADIUS)/(2*RADIUS);
+		 this.ele.style.fontSize = 15 * scale + "px";
+		 this.ele.style.opacity = alpha+0.5;
+		 this.ele.style.filter = "alpha(opacity = "+(alpha+0.5)*100+")";
+		 this.ele.style.zIndex = parseInt(scale*100);
+		 this.ele.style.left = this.x + CX - this.ele.offsetWidth/2 +"px";
+		 this.ele.style.top = this.y + CY - this.ele.offsetHeight/2 +"px";
+		 }
+		 };*/
+
+
+		//--------------------------------------------------------------------------
+		//
+		//  Class constructor
+		//
+		//--------------------------------------------------------------------------
+		/*		/!**
+		 * getClass:如果querySelectorAll不在document，把类名为className的所有a存到数组classEle
+		 * @param className
+		 * @returns {Array}
+		 *!/
+		 function getClass(className){
+		 var ele = document.getElementsByTagName("*");
+		 var classEle = [];
+		 for(var i=0;i<ele.length;i++){
+		 var cn = ele[i].className;
+		 if(cn === className){
+		 classEle.push(ele[i]);
+		 }
+
+		 }
+		 //console.log(classEle);
+		 return classEle;
+		 }*/
+		//	getClass("tag");
+		function rotateX(){
+			var cos = Math.cos(angleX);
+			var sin = Math.sin(angleX);
+			tags.forEach(function(){
+				var y1 = this.y * cos - this.z * sin;
+				var z1 = this.z * cos + this.y * sin;
+				this.y = y1;
+				this.z = z1;
+			})
+		}
+		function rotateY(){
+			var cos = Math.cos(angleY);
+			var sin = Math.sin(angleY);
+			tags.forEach(function(){
+				var x1 = this.x * cos - this.z * sin;
+				var z1 = this.z * cos + this.x * sin;
+				this.x = x1;
+				this.z = z1;
+			})
+		}
+
+		//--------------------------------------------------------------------------
+		//
+		//  Event handlers
+		//
+		//--------------------------------------------------------------------------
+		if("addEventListener" in window){
+			tagGroup.addEventListener("mousemove" , function(event){
+				var x = event.clientX - EX - CX;
+				var y = event.clientY - EY - CY;
+				// angleY = -x* (Math.sqrt(Math.pow(x , 2) + Math.pow(y , 2)) > RADIUS/4 ? 0.0002 : 0.0001);
+				// angleX = -y* (Math.sqrt(Math.pow(x , 2) + Math.pow(y , 2)) > RADIUS/4 ? 0.0002 : 0.0001);
+				angleY = x*0.0001;
+				angleX = y*0.0001;
+			},false);
+		}
+		else {
+			//IE的情况下
+			tagGroup.attachEvent("onmousemove" , function(event){
+				var x = event.clientX - EX - CX;
+				var y = event.clientY - EY - CY;
+				angleY = x*0.0001;
+				angleX = y*0.0001;
+			});
+		}
+		//--------------------------------------------------------------------------
+		//
+		//	Class methods
+		//
+		//--------------------------------------------------------------------------
+		/**
+		 * init:控制所有a的位置
+		 */
+		function init()
+		{
+			for(var i =0;i<tagEle.length;i++)
+			{
+				var k = (2*(i+1)-1)/tagEle.length - 1,
+						a = Math.acos(k ),
+						b = a*Math.sqrt(tagEle.length*Math.PI ),
+						x = RADIUS * Math.sin(a) * Math.cos(b ),
+						y = RADIUS * Math.sin(a) * Math.sin(b ),
+						z = RADIUS * Math.cos(a ),
+						t = new tag(tagEle[i] , x , y , z);
+				//写在tag中颜色会一直变化
+				tagEle[i].style.color = "rgba("+(Math.random()*255>>0)+","
+										+(Math.random()*255>>0)+","
+										+(Math.random()*255>>0)+","
+										+Math.random()+")";
+				tags.push(t);
+				t.move();
+			}
+		}
+		/**
+		 * 控制a在x轴、y轴的移动
+		 */
+		function animate(){
+			setInterval(function(){
+				rotateX();
+				rotateY();
+				tags.forEach(function(){
+					this.move();
+				})
+			} , 50)
+		}
+
+
+
+		init();
+		animate();
+
+	};
+
+	</script>
+</body>
+</html>
