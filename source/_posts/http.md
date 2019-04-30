@@ -2,7 +2,7 @@
 title: http协议
 date: 2017-05-10 09:37:26
 tags: [http]
-categories: 知识点
+categories: Note
 ---
 
 浏览器的渲染过程。

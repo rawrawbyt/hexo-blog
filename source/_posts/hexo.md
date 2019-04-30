@@ -2,7 +2,7 @@
 title: hexo搭建个人博客
 date: 2017-04-07 10:58:23
 tags: [hexo]
-categories: [巨人的肩膀]
+categories: 别人家的好东西
 ---
 很酷啊~hexo+github,再加上十几二十块买个酷酷的域名,完成这个小站哦~写写学习笔记，写写杂七杂八的小东西，虽然可能没什么人来看，但是，我开心呀~~~
 <div align=center>

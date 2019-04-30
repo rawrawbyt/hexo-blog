@@ -2,7 +2,7 @@
 title: npm常用命令
 date: 2018-03-27 22:08:37
 tags: [npm]
-categories: 学习笔记
+categories: Note
 ---
 
 

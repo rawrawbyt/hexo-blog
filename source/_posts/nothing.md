@@ -2,6 +2,7 @@
 title: nothing 
 date: 2017-03-30 16:58:56
 tags: [很闲]
+categories: Life
 ---
 
 不想撸码的时候要看看电影看看书、看看那些美丽的地方、

@@ -2,7 +2,7 @@
 title: 优化总结
 date: 2017-05-04 16:53:50
 tags: [优化,css,js]
-categories: 积累
+categories: Note
 ---
 
 better better ~~ 强迫症的宝宝-_—

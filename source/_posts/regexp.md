@@ -1,8 +1,8 @@
 ---
 title: 正则表达式整理
 date: 2017-05-09 11:22:42
-tags: [正则,summary]
-categories: 积累
+tags: [正则]
+categories: Note
 ---
 
 特别简单的就不记下来了，这么简单都还要来翻，还撸什么码/

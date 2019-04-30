@@ -1,8 +1,8 @@
 ---
 title: \\这个插件还可以//之select2
 date: 2017-04-19 11:19:41
-tags: [plugin,select2]
-categories: 插件
+tags: [plugin,select2,插件]
+categories: Note
 ---
 <div align=center>
 ![“封面”](/images/bg/0027.jpeg)

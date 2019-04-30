@@ -1,8 +1,8 @@
 ---
 title: 文件夹命名习惯
 date: 2018-01-07 12:36:28
-tags: [命名,规范]
-categories: 规范
+tags: [rule]
+categories: rule
 ---
 常用的项目目录文件命名
 <!--more-->

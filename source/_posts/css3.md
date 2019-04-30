@@ -1,8 +1,8 @@
 ---
 title: 好用的小东西整理
 date: 2017-05-03 15:40:56
-tags: [css,js]
-categories: 知识点
+tags: [css,JavaScript]
+categories: Note
 ---
 
 常用的css3巴拉巴拉的，js小技巧-_-

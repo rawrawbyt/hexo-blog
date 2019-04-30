@@ -1,8 +1,8 @@
 ---
 title: 移动端语音播报问题集合
 date: 2017-12-19 14:16:01
-tags: 
-categories: 待解决
+tags: [question]
+categories: oh my bug
 ---
 突然想到之前一个项目的问题，当时手忙脚乱糊弄地解决了一下。
 打卡签到，播放“XXX,签到成功”。

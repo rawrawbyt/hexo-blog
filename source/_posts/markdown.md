@@ -2,6 +2,7 @@
 title: markdown常用语法
 date: 2017-04-11 10:18:51
 tags: [markdown,hexo]
+categories: Note
 ---
 
 markdown：语法比较少也简单，用来写作排版很棒哦、

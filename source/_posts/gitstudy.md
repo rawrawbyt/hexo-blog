@@ -2,7 +2,7 @@
 title: git常用命令
 date: 2018-01-27 14:06:34
 tags: [git]
-categories: 学习笔记
+categories: Note
 ---
 
 git常用命令

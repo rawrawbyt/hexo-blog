@@ -1,8 +1,8 @@
 ---
 title: API大全整理/from github
 date: 2017-06-13 17:47:54
-tags: [summary]
-categories: 干货
+tags: [api]
+categories: 别人家的好东西
 ---
 偶然发现的github上的API，蛮好用的吼、
 <div align=center>

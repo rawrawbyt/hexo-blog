@@ -2,7 +2,7 @@
 title: 看好看的颜色也是一种幸福
 date: 2017-04-07 16:49:58
 tags: [color]
-categories: 这很UI
+categories: Note
 ---
  <div align=center>
  ![“好看死了的图片”](/images/bg/0016.jpeg)

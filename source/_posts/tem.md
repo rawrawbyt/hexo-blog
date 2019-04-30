@@ -1,8 +1,8 @@
 ---
 title: 在table中margin 失效
 date: 2018-05-20 14:38:47
-tags:
-categories:
+tags: [css]
+categories: Note
 ---
 
 想写个某几行`tr`滑动的动画，发现margin在table里没有用，那我总不能特地搞个定位来弄这个动画吧。气。

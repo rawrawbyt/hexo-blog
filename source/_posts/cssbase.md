@@ -2,7 +2,7 @@
 title: css基础小结
 date: 2018-03-19 20:52:43
 tags: [css] 
-categories: 小结
+categories: Note
 ---
 css tips~
 

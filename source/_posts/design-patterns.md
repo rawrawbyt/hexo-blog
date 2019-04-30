@@ -1,8 +1,8 @@
 ---
 title: design patterns - JavaScript设计模式
 date: 2017-05-25 17:16:06
-tags: [JavaScript]
-categories: 知识点
+tags: [JavaScript,设计模式]
+categories: Note
 ---
 
 哎，最不想整理的就是这一块了

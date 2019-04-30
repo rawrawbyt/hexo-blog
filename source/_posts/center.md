@@ -2,7 +2,7 @@
 title: CSS居中方法合集
 date: 2017-04-09 16:54:12
 tags: [css]
-categories: 积累
+categories: Note
 ---
 
 居中方法合集

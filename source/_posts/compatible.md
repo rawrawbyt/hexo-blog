@@ -2,7 +2,7 @@
 title: 各种爹一样的兼容处理
 date: 2017-05-03 16:14:40
 tags: [兼容]
-categories: 积累
+categories: Note
 ---
 
 好奇怪的ie678,好奇怪的安卓机，好奇怪的ios爸爸。。。

@@ -1,8 +1,8 @@
 ---
 title: 鹅厂小事件
 date: 2017-06-21 10:58:49
-tags: [widen]
-categories: 学习笔记
+tags: [email]
+categories: Note
 ---
 鹅厂啊鹅厂
 <div align=center>

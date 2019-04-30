@@ -2,7 +2,7 @@
 title: Front-end总结
 date: 2017-05-25 16:31:48
 tags: [summary]
-categories: 小结
+categories: Note
 ---
 
 前端学习的框架。只列点，不展开。

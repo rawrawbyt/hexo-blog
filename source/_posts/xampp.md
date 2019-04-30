@@ -2,6 +2,7 @@
 title: xampp配置虚拟主机
 date: 2017-05-16 14:56:42
 tags: [xampp]
+categories: Note
 ---
 xampp配置虚拟主机
 <div align=center>

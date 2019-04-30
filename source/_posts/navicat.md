@@ -2,6 +2,7 @@
 title: navicat for mysql安装问题
 date: 2017-05-16 14:57:22
 tags: [mysql]
+categories: Note
 ---
 
 navicat for mysql安装问题小集合

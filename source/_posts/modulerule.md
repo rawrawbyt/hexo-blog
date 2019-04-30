@@ -1,8 +1,8 @@
 ---
 title: Javascript模块规范:CommonJS和AMD
 date: 2017-06-20 16:49:47
-tags: [JavaScript]
-categories: 知识点
+tags: [JavaScript,CommonJS,AMD]
+categories: Note
 ---
 目前，通行的Javascript模块规范有两种：CommonJS和AMD。
 <div align=center>

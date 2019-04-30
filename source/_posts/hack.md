@@ -2,7 +2,7 @@
 title: CSS hack
 date: 2017-07-07 13:21:24
 tags: [css,杂,兼容]
-categories: 杂
+categories: Note
 ---
 
 待整理。

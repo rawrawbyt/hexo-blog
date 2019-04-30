@@ -1,8 +1,8 @@
 ---
 title: Angular 1 vs. Angular 2 
 date: 2017-07-21 13:26:52
-tags: [angular]
-categories: 笔记
+tags: [angularJs]
+categories: Note
 ---
 
 Angular 1 对比 Angular 2 

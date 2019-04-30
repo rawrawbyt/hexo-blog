@@ -1,8 +1,8 @@
 ---
 title: HTML5/JavaScript/CSS书写规范
 date: 2017-06-14 14:46:21
-tags: [summary]
-categories: 小结
+tags: [summary,JavaScript,CSS,HTML5]
+categories: rule
 ---
 作为强迫症，就是特别喜欢介个样子//
 

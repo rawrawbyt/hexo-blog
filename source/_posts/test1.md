@@ -2,7 +2,7 @@
 title: 第一篇test
 date: 2017-03-22 15:07:49
 tags: [测试]
-categories: 测试们
+categories: test
 ---
  1 + 1 = 11 ?
  <div align=center>

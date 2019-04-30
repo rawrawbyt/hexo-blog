@@ -2,7 +2,7 @@
 title: 移动端兼容性整理以及优化
 date: 2018-03-23 13:28:21
 tags: [兼容]
-categories: 小结
+categories: Note
 ---
 
 移动端兼容性整理

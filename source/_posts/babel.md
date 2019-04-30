@@ -2,7 +2,7 @@
 title: Babel安装、编译、配置（cmd和phpstorm）
 date: 2017-03-27 09:56:18
 tags: [babel,JavaScript,es6]
-categories: 学习笔记
+categories: Note
 ---
 讲道理 这里我要找一张好看的图片
 （没写完啊没写完，不生气了再写）

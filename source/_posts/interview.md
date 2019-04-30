@@ -2,7 +2,7 @@
 title: 面试大宝典
 date: 2017-04-12 11:07:57
 tags: [面试,summary]
-categories: 小结
+categories: Note
 ---
 <div align=center>
 ![“封面”](/images/bg/0022.jpeg)

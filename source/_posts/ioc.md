@@ -2,7 +2,7 @@
 title: IoC理念
 date: 2018-03-07 22:52:13
 tags: [IoC]
-categories: 干货
+categories: Note
 ---
 
 vue这么火react这么火，该看看IoC咯~

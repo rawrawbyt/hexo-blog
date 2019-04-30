@@ -2,7 +2,7 @@
 title: node.js学习
 date: 2017-07-20 12:33:31
 tags: [node]
-categories: 学习笔记
+categories: Note
 ---
 
 > Node.js是一个Javascript运行环境(runtime)。简单的说 Node.js 就是运行在服务端的 JavaScript。用于方便地搭建响应速度快、易于扩展的网络应用。

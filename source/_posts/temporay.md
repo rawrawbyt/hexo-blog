@@ -2,7 +2,7 @@
 title: 暂放
 date: 2018-03-23 13:28:50
 tags: [杂]
-categories: 杂
+categories: Note
 ---
 
 偶尔翻到以前的笔记，先都堆在这放放，晚点整理；

@@ -2,7 +2,7 @@
 title: LESS环境部署
 date: 2017-03-24 15:56:18
 tags: [less,css]
-categories: css
+categories: Note
 ---
 等等再发咯
 <!--more-->
