@@ -5,7 +5,10 @@ tags: [wx]
 categories:
 ---
 
+<div align=center>
 ![“封面”](/images/bg/0147.jpeg)
+</div>
+
 <!--more-->
 
 

@@ -8,6 +8,26 @@ categories: Note
 git常用命令
 <!--more-->
 
+# 代码冲突
+
+### 服务器代码合并本地代码
+
+```
+$ git stash  //暂存当前正在进行的工作。
+$ git pull origin master //拉取服务器的代码
+$ git stash pop //合并暂存的代码
+```
+
+### 服务器代码覆盖本地代码
+
+```
+$git reset --hard  //回滚到上一个版本
+$git pull origin master 
+```
+
+## 更换git地址
+`$ git remote set-url origin`
+
 # 一、安装
 ## git升级
 `$ git clone git://git.kernel.org/pub/scm/git/git.git`

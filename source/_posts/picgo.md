@@ -6,5 +6,6 @@ categories:
 ---
 
 [参考](https://www.jianshu.com/p/9d91355e8418)
-
+<div align=center>
 ![“封面”](/images/bg/0114.jpeg)
+</div>

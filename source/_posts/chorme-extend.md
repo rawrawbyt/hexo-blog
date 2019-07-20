@@ -7,7 +7,10 @@ categories:
 
 
 换了台笔记本，vpn也上不去了。只能瞎搞了。
+<div align=center>
 ![“封面”](/images/bg/0140.jpeg)
+</div>
+
 <!--more-->
 
 # React Devtools调试工具

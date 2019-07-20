@@ -5,8 +5,10 @@ tags: [taro]
 categories:
 ---
 
+<div align=center>
 ![“封面”](/images/bg/0015.jpeg)
-<!--more-->
+</div>
+
 <!--more-->
 
 #### 微信小程序转taro
