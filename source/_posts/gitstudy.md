@@ -28,6 +28,9 @@ $git pull origin master
 ## 更换git地址
 `$ git remote set-url origin`
 
+## 合并一条
+`$ git merge --squash another`
+
 # 一、安装
 ## git升级
 `$ git clone git://git.kernel.org/pub/scm/git/git.git`

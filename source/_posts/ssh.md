@@ -30,4 +30,3 @@ categories: Note
 #### 将密钥复制到剪贴板
 
 `pbcopy < ~/.ssh/id_rsa.pub`
-`$ pbcopy <id_rsa.pub`
