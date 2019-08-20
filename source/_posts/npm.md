@@ -5,11 +5,9 @@ tags: [npm]
 categories: Note
 ---
 
-
 npm常用命令以及npm包发布
 
 <!--more-->
-
 # 安装升级
 安装node以后自动会安装NPM。
 ## 淘宝镜像
