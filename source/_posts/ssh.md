@@ -30,3 +30,9 @@ categories: Note
 #### 将密钥复制到剪贴板
 
 `pbcopy < ~/.ssh/id_rsa.pub`
+
+#### 生成多个ssh
+`ssh-keygen -t rsa -C "xxx@gmail.com"`
+命名`id_rsa_rawraw`
+会生成`id_rsa_rawraw   id_rsa_rawraw.pub`
+

@@ -15,6 +15,8 @@ categories: Note
 Vue3之前通过get和set完成，而Vue3后通过proxy来完成。
 ### 虚拟dom
 一个内部的json字符串。
+### 生命周期
+[详细哦](https://segmentfault.com/a/1190000014376915)
 
 # bugs
 

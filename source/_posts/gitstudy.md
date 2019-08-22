@@ -8,6 +8,10 @@ categories: Note
 git常用命令
 <!--more-->
 
+# 入门学习githug
+
+[通关宝典](https://www.jianshu.com/p/482b32716bbe)
+
 # 代码冲突
 
 ### 服务器代码合并本地代码
@@ -30,6 +34,46 @@ $git pull origin master
 
 ## 合并一条
 `$ git merge --squash another`
+`$ git commit –amend –no-edit(git commit –amend -m 'xxxxx')//合并上一次commit`
+
+## git pll 和 git fetch
+`git pull = git fetch + git merge`
+如果git fetch,`git log -p master..origin/master` //比较本地的master分支和origin/master分支的区别
+如果git pull，容易`error: You have not concluded your merge (MERGE_HEAD exists).`
+解决方案：
+1. 保留本地代码
+```
+$:git merge --abort //中止合并
+$:git reset --merge //重新合并
+$:git pull//重新拉取
+```
+2. 放弃本地代码，保留远端代码
+```
+$:git fetch --all
+$:git reset --hard origin/master
+$:git fetch
+```
+
+git pull 提示错误,`Your local changes to the following files would be overwritten by merge`
+1. 服务器代码合并本地代码
+```
+$ git stash     //暂存当前正在进行的工作。
+$ git pull origin master //拉取服务器的代码
+$ git stash pop //合并暂存的代码
+```
+2. 服务器代码覆盖本地代码
+```
+$git reset --hard  //回滚到上一个版本
+$git pull origin master 
+```
+
+## git merge 和 git rebase
+git rebase -i 命令来压缩合并两次提交
+`git rebase -i HEAD~2`
+`?git rebase --onto`
+在分支上，执行git rebase master，有冲突就解决冲突，解决后直接git add . 再git rebase --continue，
+切换到master分支，执行git merge dev
+[看看](https://blog.csdn.net/yuyantai1234/article/details/90072796)
 
 # 一、安装
 ## git升级
