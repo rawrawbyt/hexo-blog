@@ -41,6 +41,7 @@ $git pull origin master
 如果git fetch,`git log -p master..origin/master` //比较本地的master分支和origin/master分支的区别
 如果git pull，容易`error: You have not concluded your merge (MERGE_HEAD exists).`
 解决方案：
+
 1. 保留本地代码
 ```
 $:git merge --abort //中止合并
