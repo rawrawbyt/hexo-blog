@@ -34,7 +34,7 @@ $git pull origin master
 
 ## 合并一条
 `$ git merge --squash another`
-`$ git commit –amend –no-edit(git commit –amend -m 'xxxxx')//合并上一次commit`
+`$ git commit --amend –no-edit(git commit –amend -m 'xxxxx')//合并上一次commit`
 
 ## git pll 和 git fetch
 `git pull = git fetch + git merge`
