@@ -18,6 +18,11 @@ categories:
 `$ yarn add -g commitizen`
 `npm install -g commitizen --ignore-scripts spawn-sync`
 
+sudo mkdir -p /usr/local/include /usr/local/lib /usr/local/sbin
+sudo chown -R $(whoami) /usr/local/include /usr/local/lib /usr/local/sbin
+最后在重新进行软连接：
+brew link node
+
 全局安装
 `$ yarn add -g cz-conventional-changelog`
 本地安装
