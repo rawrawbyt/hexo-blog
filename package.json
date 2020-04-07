@@ -5,6 +5,9 @@
   "hexo": {
     "version": "3.8.0"
   },
+  "scripts": {
+    "changelog": "conventional-changelog -p atom -i CHANGELOG.md -s" 
+  },
   "dependencies": {
     "commitizen": "^4.0.3",
     "core-js": "^3.6.4",

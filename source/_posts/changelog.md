@@ -47,6 +47,12 @@ brew link node
 
 安装并添加完后，我们便可以使用 git cz 命令替换 git commit 来使用
 
+`$ npm install -g conventional-changelog-cli`
+
+目前集成了包括 atom, codemirror, ember, eslint, express, jquery 等项目的标准
+
+`$ conventional-changelog -p angular -i CHANGELOG.md -s`
+
 
 
 
