@@ -6,7 +6,7 @@
     "version": "3.8.0"
   },
   "scripts": {
-    "changelog": "conventional-changelog -p atom -i CHANGELOG.md -s" 
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0" 
   },
   "dependencies": {
     "commitizen": "^4.0.3",
